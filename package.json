@@ -1,0 +1,43 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "(cd enigmance-react && npm run start) & npm run start",
+    "client": "npm start --prefix enigmance-react"
+    
+   
+    
+  },
+  "keywords": [],
+  "author": "Cucuz",
+  "license": "ISC",
+  "dependencies": {
+    "airtable": "^0.11.6",
+    "apicache": "^1.6.3",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.17.3",
+    "helmet": "^6.0.1",
+    "hide-powered-by": "^1.1.0",
+    "http-proxy-middleware": "^2.0.6",
+    "json-server": "^0.17.1",
+    "jsonwebtoken": "^9.0.0",
+    "moment-timezone": "^0.5.40",
+    "mongoose": "^6.9.1",
+    "needle": "^3.2.0",
+    "nodemailer": "^6.9.1",
+    "react-animated-weather": "^4.0.1",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
