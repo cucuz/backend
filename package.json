@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "(cd enigmance-react && npm run start) & npm run start",
-    "client": "npm start --prefix enigmance-react"
+    "client": "npm start --prefix enigmance-react",
+     "server": "nodemon server.js",
     
    
     
