@@ -1,7 +1,7 @@
 var session = require('express-session')
 const express = require('express'); 
 const helmet = require("helmet");
-const connectDB = require('./backend/config/db');
+const connectDB = require('./config/db');
 const cors = require('cors');
 const port =  process.env.PORT ||5000;
 const dotenv = require('dotenv');
