@@ -26,20 +26,20 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // routes
-app.use('/api/weather', require('./backend/routes/weather'));
-app.use('/api/contactform', require('./backend/routes/contactForm'));
-app.use('/api/newsletter', require('./backend/routes/subscribers'));
+app.use('/api/weather', require('./routes/weather'));
+app.use('/api/contactform', require('./routes/contactForm'));
+app.use('/api/newsletter', require('./routes/subscribers'));
 
-app.use('/api/analytics', require('./backend/routes/Visitors'));
+app.use('/api/analytics', require('./routes/Visitors'));
 
-app.use('/api/list', require('./backend/routes/airtable'));
-app.use('/customers', require('./backend/routes/customerQueries'));
-app.use('/api/goals', require('./backend/routes/goalRoutes'));
-app.use('/api/users', require('./backend/routes/userRoutes'));
+app.use('/api/list', require('./routes/airtable'));
+app.use('/customers', require('./routes/customerQueries'));
+app.use('/api/goals', require('./routes/goalRoutes'));
+app.use('/api/users', require('./routes/userRoutes'));
 //location data
-app.use('/api/location', require('./backend/routes/locationRoutes'));
+app.use('/api/location', require('./routes/locationRoutes'));
 //icons
-app.use('/api/icon', require('./backend/routes/iconsRoutes'));
+app.use('/api/icon', require('./routes/iconsRoutes'));
 
 
 
